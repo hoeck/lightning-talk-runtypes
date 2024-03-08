@@ -15,7 +15,7 @@ To start the slide show:
 To build:
 
 - `rm -rf docs`
-- `node_modules/.bin/slidev build --base lightning-talk-runtypes`
+- `node_modules/.bin/slidev build --base /lightning-talk-runtypes/`
 - `mv dist docs`
 - commit and push
 
