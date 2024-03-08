@@ -1,11 +1,22 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# Lightning Talk Intro To Runtypes
+
+[Slides](https://hoeck.github.io/lightning-talk-runtypes)
+[Pdf Slides](slides-export.pdf)
+[Pdf Notes](slides-export-notes.pdf)
+
+## Dev
 
 To start the slide show:
 
-- `npm install`
-- `npm run dev`
+- `yarn install`
+- `yarn run dev`
 - visit http://localhost:3030
 
-Edit the [slides.md](./slides.md) to see the changes.
+To build:
 
-Learn more about Slidev on [documentations](https://sli.dev/).
+- `rm -rf docs`
+- `node_modules/.bin/slidev build --base lightning-talk-runtypes`
+- `mv dist docs`
+- commit and push
+
+Built with [slidev](https://sli.dev/).

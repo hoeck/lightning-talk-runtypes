@@ -1,1 +1,0 @@
-import{b as t,f as o,o as s}from"../modules/vue-Dpzh9dbX.js";import{b as l}from"../index-4WeUNnZi.js";const n={},r={class:"slidev-layout default"};function c(e,a){return s(),t("div",r,[o(e.$slots,"default")])}const u=l(n,[["render",c],["__file","/home/erik/projects/decompiled-lightningtalk-8minutes-with-runtypes/node_modules/@slidev/client/layouts/default.vue"]]);export{u as I};
